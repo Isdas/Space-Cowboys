@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1ffa318f-9de3-4253-b585-343f878472d2",
+            "Value": {
+                "id": "f2d3e253-185e-44e0-82d9-3151f543cf26",
+                "resourcePath": "fonts\\fnt_default\\fnt_default.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "4956be78-fee3-4c04-b38d-3e1603e62417",
             "Value": {
                 "id": "bb4a1a49-a4da-48a2-af36-3cea24d03c82",
@@ -84,6 +92,14 @@
                 "id": "30994f20-0a68-45e6-aef2-6935628bfe7e",
                 "resourcePath": "views\\68de72c4-1f73-40d0-9c52-a5b1166a3fe3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74e0260a-a40b-47ca-858d-19fceef18ac6",
+            "Value": {
+                "id": "5f067e4b-931c-4fde-828b-1a5288495225",
+                "resourcePath": "objects\\obj_startmenu\\obj_startmenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +140,14 @@
                 "id": "a3048d7f-6730-434c-8718-09ea2db9c8dc",
                 "resourcePath": "views\\9c32e8d2-d4e9-493b-9d8d-f33a921df86d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e8de48d-49cc-4c16-b0b7-00bca8ffe3ae",
+            "Value": {
+                "id": "0c546277-e8e7-42cd-8592-d1d177ba88f7",
+                "resourcePath": "scripts\\scr_startmenu\\scr_startmenu.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -245,10 +269,18 @@
                 "resourcePath": "views\\f7830976-5d2b-42e3-be98-34e0ebae9c21.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f8b2ada4-e3ee-4ad3-ad88-09b72292659c",
+            "Value": {
+                "id": "3413da2e-649f-4ef2-becf-9cd1ead0dbd2",
+                "resourcePath": "sprites\\spr_select\\spr_select.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        
+        "9e8de48d-49cc-4c16-b0b7-00bca8ffe3ae"
     ],
     "tutorial": ""
 }
