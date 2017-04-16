@@ -8,7 +8,7 @@ key_space = keyboard_check_pressed(vk_space);
 // Act to the input
 if(key_left)
 {
-	image_angle += 2;
+	image_angle += 3;
 }
 if(key_right)
 {
