@@ -12,7 +12,7 @@ if(key_left)
 }
 if(key_right)
 {
-	image_angle -= 2;
+	image_angle -= 3;
 }
 if(key_up)
 {
