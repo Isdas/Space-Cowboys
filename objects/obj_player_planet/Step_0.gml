@@ -9,21 +9,24 @@ key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
 // Act to the input
-if(key_left)
+if(key_right && place_empty(x+8, y))
 {
-	image_angle += 3;
-}
-if(key_right)
-{
-	image_angle -= 3;
-}
-if(key_up)
-{
-	motion_add(image_angle, 0.2);
+	x += 8
 }
 
-speed = max(speed - 0.01, 0);
-if(speed > 5) speed = 5;
+if(key_left && place_empty(x-8, y))
+{
+	x -= 8
+}
+if(key_up && place_empty(x, y-8))
+{
+	y -= 8
+}
+if(key_down && place_empty(x, y +8))
+{
+	y += 8
+}
+
 
 if(key_space)
 {
