@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "8aa43fe5-21c8-41ce-aad3-b1853d65713c",
+            "Value": {
+                "id": "87385c80-de34-4a23-8527-94567a87f34d",
+                "resourcePath": "sprites\\spr_box_tall\\spr_box_tall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b9aae2c-b197-4ae2-852f-5196f3722b7f",
             "Value": {
                 "id": "21feec7b-6fd2-4391-a705-ac5159695cef",
