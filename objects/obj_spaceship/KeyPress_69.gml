@@ -1,1 +1,1 @@
-room_goto(rm_space);
+if(place_meeting(x, y, obj_player_planet)) room_goto(rm_space);
