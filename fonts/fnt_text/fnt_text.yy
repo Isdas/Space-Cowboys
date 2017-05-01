@@ -2,7 +2,7 @@
     "id": "c80db6d7-3d2f-49f2-bcb3-c4348ed07c1e",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "fnt_obj_planet",
+    "name": "fnt_text",
     "AntiAlias": 1,
     "TTFName": "",
     "bold": false,

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3e776e69-1d9b-4a41-b2be-c8cf93ab41e1",
+            "Value": {
+                "id": "5815e42b-6d4b-41c5-b897-2194735ed97e",
+                "resourcePath": "objects\\par_box\\par_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4956be78-fee3-4c04-b38d-3e1603e62417",
             "Value": {
                 "id": "bb4a1a49-a4da-48a2-af36-3cea24d03c82",
@@ -156,6 +164,14 @@
                 "id": "30994f20-0a68-45e6-aef2-6935628bfe7e",
                 "resourcePath": "views\\68de72c4-1f73-40d0-9c52-a5b1166a3fe3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6d0fe97d-0bee-42a0-a117-91c250da232a",
+            "Value": {
+                "id": "1e5485ce-d3cb-401b-bd83-66866dfa41da",
+                "resourcePath": "objects\\obj_spaceship\\obj_spaceship.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -298,7 +314,7 @@
             "Key": "c80db6d7-3d2f-49f2-bcb3-c4348ed07c1e",
             "Value": {
                 "id": "e3dbbd21-62ff-43ca-aeb3-64614d4aa464",
-                "resourcePath": "fonts\\fnt_obj_planet\\fnt_obj_planet.yy",
+                "resourcePath": "fonts\\fnt_text\\fnt_text.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -340,6 +356,14 @@
                 "id": "1ebbca02-26ff-4a78-a8dd-a228813be761",
                 "resourcePath": "rooms\\rm_init\\rm_init.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f281e0a6-49c2-435f-860a-b4debb632d10",
+            "Value": {
+                "id": "1f7f2247-0c19-4466-845e-d76f06fda185",
+                "resourcePath": "sprites\\spr_spaceship\\spr_spaceship.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
