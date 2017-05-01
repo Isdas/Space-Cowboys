@@ -1,1 +1,1 @@
-src_death();
+scr_death();

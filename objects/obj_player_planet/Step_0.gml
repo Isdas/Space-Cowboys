@@ -6,29 +6,68 @@ key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
 // Act to the input
-if(key_right && !place_meeting(x + 8, y, par_box))
+if(!isTalking)
 {
-	x += 8
+	if(key_right && !place_meeting(x + 8, y, par_box))
+	{
+		x += 8
+	}
+
+	if(key_left && !place_meeting(x - 8, y, par_box))
+	{
+		x -= 8
+	}
+	if(key_up && !place_meeting(x, y - 8, par_box))
+	{
+		y -= 8
+	}
+	if(key_down && !place_meeting(x, y + 8, par_box))
+	{
+		y += 8
+	}
 }
 
-if(key_left && !place_meeting(x - 8, y, par_box))
+// Checks if she's colliding with a robot around her and not alrady talking
+if(place_meeting(x, y, obj_npc) && !isTalking)
 {
-	x -= 8
-}
-if(key_up && !place_meeting(x, y - 8, par_box))
-{
-	y -= 8
-}
-if(key_down && !place_meeting(x, y + 8, par_box))
-{
-	y += 8
+    // If so, and they press space, begin a conversation
+    if(keyboard_check_pressed(vk_space))
+	{
+        // Set the global variable messageGiver
+        messageGiver = collision_circle(x, y, 128, obj_npc, true, true);
+        
+		// Set the global variable PCTalking
+        pcTalking = self;
+        isTalking = true;
+        
+		// Default values of index1, index2
+        index1 = 0;
+        index2 = 0;
+        
+		scr_dialogue();
+    }
 }
 
-
-if(key_space)
+if(isTalking)
 {
-	rock = instance_create_depth(x, y, 0, obj_rock);
-	rock.direction = image_angle;
-	rock.image_angle = image_angle;
-	rock.speed = 7.5;
+    if(index1 == 02 && messageGiver.object_index == obj_npc && currentChoice == 0)
+        bitMe = true;
+    else if(index1 == 02 && messageGiver.object_index == obj_npc && currentChoice == 1)
+        bitMe = false;
+}
+if(bitMe && !isTalking)
+{
+    bitMe = false;
+	scr_death();
+}
+
+if(isTalking)
+{
+    if(index1 == 01 && messageGiver.object_index == obj_npc)
+        upgradeShip = true;
+}
+if(upgradeShip && !isTalking)
+{
+	with(obj_spaceship) global.spaceshipindex = 1;
+    upgradeShip = false;
 }

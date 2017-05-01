@@ -1,3 +1,6 @@
+///scr_startmenu()
+// Script for what to do in the startmenu
+
 switch(mpos)
 {
 	case 0: room_goto(rm_space); break;
