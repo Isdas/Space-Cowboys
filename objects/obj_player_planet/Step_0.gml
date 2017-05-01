@@ -5,29 +5,32 @@ key_up = keyboard_check(vk_up) + keyboard_check(ord("W"));
 key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
+// Set depth
+depth = -x - y;
+
 // Act to the input
 if(!isTalking)
 {
 	if(key_right && !place_meeting(x + 8, y, par_box))
 	{
-		x += 8
+		x += 8;
 	}
 
 	if(key_left && !place_meeting(x - 8, y, par_box))
 	{
-		x -= 8
+		x -= 8;
 	}
 	if(key_up && !place_meeting(x, y - 8, par_box))
 	{
-		y -= 8
+		y -= 8;
 	}
 	if(key_down && !place_meeting(x, y + 8, par_box))
 	{
-		y += 8
+		y += 8;
 	}
 }
 
-// Checks if she's colliding with a robot around her and not alrady talking
+// Checks if she's colliding with a NPC around her and not alrady talking
 if(place_meeting(x, y, obj_npc) && !isTalking)
 {
     // If so, and they press space, begin a conversation
