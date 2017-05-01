@@ -2,7 +2,7 @@
     "id": "bf9cd7ee-f9db-4e87-a5aa-300cda533f06",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "rm_plant_test",
+    "name": "rm_planet_test",
     "IsDnD": false,
     "creationCodeFile": "",
     "inheritCode": false,
