@@ -1,32 +1,32 @@
 {
-    "id": "db4ecd38-5d84-4b96-bc36-e5e0693b8b89",
+    "id": "1f6dde38-8981-49cc-a3d1-ddfdcbed54a0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player_planet",
+    "name": "obj_checkpoint",
     "eventList": [
         {
-            "id": "16b04417-973c-4fbf-8977-5cc73f79675a",
+            "id": "2db58c60-d3c9-4517-bc74-5436d6833a5f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "1f6dde38-8981-49cc-a3d1-ddfdcbed54a0"
+        },
+        {
+            "id": "9c0f6872-3e4e-4d53-bb63-3ac5c1d68c02",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "db4ecd38-5d84-4b96-bc36-e5e0693b8b89"
-        },
-        {
-            "id": "0bf456fb-978a-4a37-b3cc-f7d9b9bd60cb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "db4ecd38-5d84-4b96-bc36-e5e0693b8b89"
+            "m_owner": "1f6dde38-8981-49cc-a3d1-ddfdcbed54a0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "e4127b1e-a808-43df-a4bf-bc3534bdc187",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -41,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "c01abd65-84e1-4b45-a476-a393f3bb2c93",
+    "spriteId": "8ef781bd-9cca-4a39-b71b-ec50bebeba66",
     "visible": true
 }
