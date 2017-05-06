@@ -8,26 +8,27 @@ key_space = keyboard_check_pressed(vk_space);
 // Set depth
 depth = -x - y;
 
-// Act to the input
+// React to inputs
+hsp = movespeed * (key_right - key_left);
+vsp = movespeed * (key_down - key_up);
+
 if(!isTalking)
 {
-	if(key_right && !place_meeting(x + 8, y, par_box))
+	if(place_meeting(x + hsp, y, par_box))
 	{
-		x += 8;
+		while(!place_meeting(x + sign(hsp), y, par_box)) x += sign(hsp)
+	
+		hsp = 0;	
 	}
-
-	if(key_left && !place_meeting(x - 8, y, par_box))
-	{
-		x -= 8;
+	x += hsp;
+	
+	if(place_meeting(x, y + vsp, par_box))
+	{	
+		while(!place_meeting(x, y + sign(vsp), par_box)) y += sign(vsp)
+		
+		vsp = 0;
 	}
-	if(key_up && !place_meeting(x, y - 8, par_box))
-	{
-		y -= 8;
-	}
-	if(key_down && !place_meeting(x, y + 8, par_box))
-	{
-		y += 8;
-	}
+	y += vsp;
 }
 
 // Checks if she's colliding with a NPC around her and not alrady talking
