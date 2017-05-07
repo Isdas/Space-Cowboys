@@ -1,4 +1,4 @@
-depth = -10000;
+depth = -5000;
 
 draw_self();
 draw_set_font(fnt_default);

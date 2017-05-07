@@ -4,7 +4,7 @@
 for(i = 1; i < array_length_2d(messageGiver.myDialogue, index1); ++i)
 {
     ++index2; // index2 is the options for the player, since it began at 0 which was the NPC's dialogue, we increment to begin and then each time
-    choiceBox[i - 1] = instance_create_depth((i * 210), room_height / 2, -10, obj_choicebox); // Create the choiceBox and set it in the array
+    choiceBox[i - 1] = instance_create_depth((i * 210), obj_player_planet.y + 200, -5000, obj_choicebox); // Create the choiceBox and set it in the array
    
     with(choiceBox[i - 1])
 	{

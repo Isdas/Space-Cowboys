@@ -2,7 +2,7 @@
 // Begin dialogue between player and messageGiver
 
 // Create the dialogue box in the middle of the screen
-dialogueBox = instance_create_depth(room_width / 2, room_height / 2, 0, obj_dialoguebox);
+dialogueBox = instance_create_depth(obj_player_planet.x, obj_player_planet.y, -5000, obj_dialoguebox);
 
 // With allows us to access the variables of dialogueBox with an accessor (.) each time
 with(dialogueBox)
