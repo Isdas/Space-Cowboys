@@ -110,7 +110,8 @@
         "ef72dd32-e5e7-488f-bf3e-b5df408dcd80",
         "eba386d5-eb60-47b7-8345-1b106720f38e",
         "ad3d565a-2c12-43bc-8371-ef147a1debd9",
-        "aecb1408-4379-4962-8bdc-bf3866b04861"
+        "aecb1408-4379-4962-8bdc-bf3866b04861",
+        "c8dba41e-0fef-4499-9d33-bf34681bde9f"
     ],
     "layers": [
         {
@@ -2583,6 +2584,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "c8dba41e-0fef-4499-9d33-bf34681bde9f",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_1A3D6948",
+                    "x": 352,
+                    "y": 512,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_1A3D6948",
+                    "objId": "4a0b3255-d2cc-499d-b751-9ace136b6e7e",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -2639,8 +2664,8 @@
         "id": "5d56c326-a6b4-4dfd-935e-3dfab474744d",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 768,
-        "Width": 1024,
+        "Height": 1080,
+        "Width": 1920,
         "inheritRoomSettings": false,
         "persistent": false
     },
@@ -2650,7 +2675,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -2659,16 +2684,16 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 768,
+            "hport": 1080,
             "hspeed": -1,
-            "hview": 768,
+            "hview": 1080,
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
-            "visible": false,
+            "visible": true,
             "vspeed": -1,
-            "wport": 1024,
-            "wview": 1024,
+            "wport": 1920,
+            "wview": 1920,
             "xport": 0,
             "xview": 0,
             "yport": 0,
