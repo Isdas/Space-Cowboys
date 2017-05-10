@@ -559,19 +559,20 @@
             }
         },
         {
-<<<<<<< HEAD
+
             "Key": "de5af0a7-eba1-4314-8880-a5dcbfd41015",
             "Value": {
                 "id": "13c0b914-01c1-44d9-acc0-933216a96d85",
                 "resourcePath": "objects\\obj_mechanic\\obj_mechanic.yy",
                 "resourceType": "GMObject"
-=======
+
+		}, 
+		{
             "Key": "e30bc45e-2f34-4749-ae1e-00d979e83d9a",
             "Value": {
                 "id": "a735f671-8189-4532-84bc-4720a48e4ab4",
                 "resourcePath": "scripts\\vect_scaler\\vect_scaler.yy",
                 "resourceType": "GMScript"
->>>>>>> b1c47c449e15810700b0202f007a5bd91fd8e833
             }
         },
         {
