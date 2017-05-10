@@ -1,1 +1,1 @@
-depth=-x-y;
+depth = -y;
