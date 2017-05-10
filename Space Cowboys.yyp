@@ -111,11 +111,35 @@
             }
         },
         {
+            "Key": "27450ee5-03dc-4ab9-b558-693063db4005",
+            "Value": {
+                "id": "40bdb9d9-d118-44b5-9ffa-2c47aaeefb99",
+                "resourcePath": "scripts\\vect_norm\\vect_norm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2b6c97b6-0dd2-4870-89b2-8743846a4fbc",
+            "Value": {
+                "id": "32d37475-41eb-4874-b7fe-f353fa27ac2a",
+                "resourcePath": "views\\2b6c97b6-0dd2-4870-89b2-8743846a4fbc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "331313a9-0c1e-4370-b35b-8b5e10e1a642",
             "Value": {
                 "id": "e5137c8d-a770-430d-b0b0-9c999b60deac",
                 "resourcePath": "sprites\\spr_dialoguebox\\spr_dialoguebox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "337517bf-ed85-45b8-afa9-04911f1b8ab6",
+            "Value": {
+                "id": "808522ca-4162-45ce-8911-be6b524a5f44",
+                "resourcePath": "scripts\\vect_subtract1\\vect_subtract1.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -175,11 +199,27 @@
             }
         },
         {
+            "Key": "5438e4f0-974f-4c31-8b26-b7036a9f61d7",
+            "Value": {
+                "id": "3eebe16c-0941-4583-b64a-b75cfe5bb8e6",
+                "resourcePath": "scripts\\vect_multr\\vect_multr.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "55b12118-1658-4c16-a689-71215b966f27",
             "Value": {
                 "id": "c0f116a5-9ef7-498a-b2a1-5423a64bd069",
                 "resourcePath": "objects\\obj_spaceEnemy\\obj_spaceEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "55fbbb34-484c-4727-9af7-f48d81bb6c66",
+            "Value": {
+                "id": "2d7509f0-6b3d-48e3-bec5-2449de6bb030",
+                "resourcePath": "scripts\\sb_seek\\sb_seek.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -212,6 +252,14 @@
                 "id": "6768ca5e-c475-47e3-95e1-ab1f8093c0f2",
                 "resourcePath": "objects\\obj_pause\\obj_pause.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "64c1a6dd-f802-424b-a2f0-ccd7ee742c32",
+            "Value": {
+                "id": "3d1a0946-58f4-465e-a7b9-5632238c5ebb",
+                "resourcePath": "views\\64c1a6dd-f802-424b-a2f0-ccd7ee742c32.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -260,6 +308,14 @@
                 "id": "5f067e4b-931c-4fde-828b-1a5288495225",
                 "resourcePath": "objects\\obj_startmenu\\obj_startmenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7eb0d76f-173e-4080-8566-3eb20b6e1487",
+            "Value": {
+                "id": "3ec6fda2-6491-44e3-9912-1906b3d39899",
+                "resourcePath": "scripts\\vect_subtract\\vect_subtract.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -399,6 +455,14 @@
             }
         },
         {
+            "Key": "b916655d-321b-4965-b9f5-1b6cdadd38dc",
+            "Value": {
+                "id": "e7651808-7ff7-48f2-b856-ed86c29b3310",
+                "resourcePath": "scripts\\vect2\\vect2.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ba0ab3d3-f985-4b8f-95fa-4625daae954c",
             "Value": {
                 "id": "0040662c-1e80-4910-b7ce-dd342fe5768d",
@@ -495,11 +559,19 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "de5af0a7-eba1-4314-8880-a5dcbfd41015",
             "Value": {
                 "id": "13c0b914-01c1-44d9-acc0-933216a96d85",
                 "resourcePath": "objects\\obj_mechanic\\obj_mechanic.yy",
                 "resourceType": "GMObject"
+=======
+            "Key": "e30bc45e-2f34-4749-ae1e-00d979e83d9a",
+            "Value": {
+                "id": "a735f671-8189-4532-84bc-4720a48e4ab4",
+                "resourcePath": "scripts\\vect_scaler\\vect_scaler.yy",
+                "resourceType": "GMScript"
+>>>>>>> b1c47c449e15810700b0202f007a5bd91fd8e833
             }
         },
         {
@@ -579,7 +651,14 @@
         "9e8de48d-49cc-4c16-b0b7-00bca8ffe3ae",
         "5ba4f0ea-dfca-48e1-aa17-1da44e011154",
         "b4a6545c-f591-4fe6-8cfc-fb28f78ab54f",
-        "d725f514-e5af-41b3-9699-79c51e54f1e6"
+        "d725f514-e5af-41b3-9699-79c51e54f1e6",
+        "55fbbb34-484c-4727-9af7-f48d81bb6c66",
+        "b916655d-321b-4965-b9f5-1b6cdadd38dc",
+        "e30bc45e-2f34-4749-ae1e-00d979e83d9a",
+        "7eb0d76f-173e-4080-8566-3eb20b6e1487",
+        "5438e4f0-974f-4c31-8b26-b7036a9f61d7",
+        "337517bf-ed85-45b8-afa9-04911f1b8ab6",
+        "27450ee5-03dc-4ab9-b558-693063db4005"
     ],
     "tutorial": ""
 }
