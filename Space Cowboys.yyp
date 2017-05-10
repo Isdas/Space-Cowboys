@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "68719588-7a1d-4d19-9301-1ae1123a7117",
+            "Value": {
+                "id": "4d8084c8-6a72-4294-98da-79db58dab13d",
+                "resourcePath": "sprites\\spr_redbox\\spr_redbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68de72c4-1f73-40d0-9c52-a5b1166a3fe3",
             "Value": {
                 "id": "30994f20-0a68-45e6-aef2-6935628bfe7e",
@@ -236,6 +244,14 @@
                 "id": "1e5485ce-d3cb-401b-bd83-66866dfa41da",
                 "resourcePath": "objects\\obj_spaceship\\obj_spaceship.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f503db0-4ee1-4beb-a6a3-710a8ebb6fb4",
+            "Value": {
+                "id": "3039a3e8-9f28-44a0-8e5d-cd1056e111b4",
+                "resourcePath": "sprites\\spr_mechanic\\spr_mechanic.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -475,6 +491,14 @@
             "Value": {
                 "id": "ccdd50e1-0cd7-4873-91ea-a66f7d626601",
                 "resourcePath": "objects\\obj_player_planet\\obj_player_planet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de5af0a7-eba1-4314-8880-a5dcbfd41015",
+            "Value": {
+                "id": "13c0b914-01c1-44d9-acc0-933216a96d85",
+                "resourcePath": "objects\\obj_mechanic\\obj_mechanic.yy",
                 "resourceType": "GMObject"
             }
         },
