@@ -9,7 +9,9 @@
         "7eb0d76f-173e-4080-8566-3eb20b6e1487",
         "5438e4f0-974f-4c31-8b26-b7036a9f61d7",
         "337517bf-ed85-45b8-afa9-04911f1b8ab6",
-        "27450ee5-03dc-4ab9-b558-693063db4005"
+        "27450ee5-03dc-4ab9-b558-693063db4005",
+        "903baff3-2dd7-4570-bb0d-aa0ff3fea935",
+        "5b0293f4-5f4c-4b36-9d71-9b3f319d4b8a"
     ],
     "filterType": "GMScript",
     "folderName": "Vector",

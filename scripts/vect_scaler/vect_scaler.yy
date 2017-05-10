@@ -1,5 +1,5 @@
 {
-    "id": "e30bc45e-2f34-4749-ae1e-00d979e83d9a",
+    "id": "5b0293f4-5f4c-4b36-9d71-9b3f319d4b8a",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "vect_scaler",

@@ -1,7 +1,4 @@
-/// @description vect_scaler(vect,real)
-/// @function vect_scaler
-/// @param vect
-/// @param real
+///vect_scaler(vect,real)
 //scales the vector to the distance specified
 
 var i;
@@ -18,4 +15,3 @@ for(i=1; i<= num; i++)
 }
 
 return v;
-
