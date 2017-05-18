@@ -6,18 +6,10 @@ key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
 // Act to the input
-if(key_left)
-{
-	image_angle += 3;
-}
-if(key_right)
-{
-	image_angle -= 3;
-}
-if(key_up)
-{
-	motion_add(image_angle, 0.2);
-}
+if(key_left) image_angle += 3;
+if(key_right) image_angle -= 3;
+if(key_up) motion_add(image_angle, 0.2);
+if(key_down) motion_add(image_angle, -0.1);
 
 speed = max(speed - 0.01, 0);
 if(speed > 5) speed = 5;
