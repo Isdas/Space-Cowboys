@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "0d88f9d2-5b20-49c0-8777-5895c86f495c",
-            "Value": {
-                "id": "92683283-6b3b-4c9b-8a7b-09c521de762a",
-                "resourcePath": "objects\\obj_box_tall\\obj_box_tall.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "12df28f0-2191-4f77-a525-d1e8bea96254",
             "Value": {
                 "id": "03387ccf-ac7f-4ac9-b671-21c35b5063d0",
@@ -335,14 +327,6 @@
             }
         },
         {
-            "Key": "8aa43fe5-21c8-41ce-aad3-b1853d65713c",
-            "Value": {
-                "id": "87385c80-de34-4a23-8527-94567a87f34d",
-                "resourcePath": "sprites\\spr_box_tall\\spr_box_tall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8b9aae2c-b197-4ae2-852f-5196f3722b7f",
             "Value": {
                 "id": "21feec7b-6fd2-4391-a705-ac5159695cef",
@@ -490,7 +474,7 @@
             "Key": "bf9cd7ee-f9db-4e87-a5aa-300cda533f06",
             "Value": {
                 "id": "ca73abee-5d5a-427c-a3f7-4a6f29983878",
-                "resourcePath": "rooms\\rm_planet_test\\rm_planet_test.yy",
+                "resourcePath": "rooms\\rm_planet\\rm_planet.yy",
                 "resourceType": "GMRoom"
             }
         },

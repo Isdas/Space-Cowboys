@@ -6,7 +6,7 @@ key_down = keyboard_check(vk_down) + keyboard_check(ord("S"));
 key_space = keyboard_check_pressed(vk_space);
 
 // Set depth
-depth = -y;
+depth = -y + 17;
 
 // React to inputs
 hsp = movespeed * (key_right - key_left);
