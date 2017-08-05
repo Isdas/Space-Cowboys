@@ -1,0 +1,1 @@
+glowSize = 1;
